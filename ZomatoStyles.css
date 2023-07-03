@@ -1,34 +1,37 @@
 * {
-     padding:0px;
-     margin:0px;
-     box-sizing: border-box;
-}
-body {
-    font-family: "Merriweather",serif;
-    background-color: #ebf2ff;  /*hex value */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Merriweather", serif;
+    background-color: #ebf2ff;
     overflow-x: hidden;
     transition: all 0.5s;
-}
-
-.navbar{
+  }
+  
+  .navbar {
     position: sticky;
-    top:0;
-  display:flex;
-  align-items: center;
-  background-color: wheat;
-
-}
-.brand__logo
-{
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: wheat;
+  }
+  
+  .brand__logo {
     width: 100%;
     height: 100%;
-
-}
-.navbar__brand
-{
-    width: 100px;
-}
-.navbar__button
-{
-
-}
+  }
+  
+  .navbar__nav__items {
+    display: flex;
+    align-items: center;
+    margin-left:auto;
+  }
+  
+  .navbar__button {
+    background-color: transparent;
+    margin-left: 10px;
+  }
+  

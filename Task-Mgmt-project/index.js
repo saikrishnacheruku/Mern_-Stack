@@ -1,12 +1,17 @@
-const obj1={
-    name:"sai",
-    age:200,
-    principle:"coding"
-}
-const obj2={
-    name:"sravani",
-    age:"28",
-    like :"being happy"
-}
+console.log("this is sai krishna")
+console.log("his is sravani")
+console.error("error")
+console.warn("error")
 
-const secobj=Object.assign(obj1,obj2);
+console.log(typeof "sai")
+console.log(typeof -1)
+console.log(typeof 1.2)
+console.log(typeof 234567890234568678934)
+console.log(typeof true)
+console.log(typeof false)
+
+var arr=[1,2,3,4,"Age","sravs"]
+console.log(typeof arr);
+console.log(arr.length)
+console.log(arr.push(5))
+console.log(arr)

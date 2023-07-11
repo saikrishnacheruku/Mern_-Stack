@@ -15,3 +15,7 @@ console.log(typeof arr);
 console.log(arr.length)
 console.log(arr.push(5))
 console.log(arr)
+
+
+var age=21
+console.log(age)

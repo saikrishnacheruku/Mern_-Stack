@@ -19,3 +19,11 @@ console.log(arr)
 
 var age=21
 console.log(age)
+
+var heading=document.getElementById("heading")
+var para=document.getElementsByClassName("para")
+
+var tags=document.getElementsByTagName('a')
+
+var query=document.querySelector('.para')
+
